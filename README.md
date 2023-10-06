@@ -134,15 +134,3 @@ select: "Select" se usa en LINQ para decidir qué información específica desea
 Order by: "Order by" se utiliza para ordenar los datos en un cierto orden, por ejemplo, de manera ascendente o descendente. Puedes usarlo para organizar tus datos de una manera específica, como ordenar una lista de clientes alfabéticamente por sus nombres.
 
 En resumen, estas palabras clave se utilizan en LINQ para hacer consultas y manipulaciones en colecciones de datos de manera más sencilla y organizada. "Var" es para declarar variables de manera más flexible, "from" indica de dónde provienen los datos, "where" filtra los datos según condiciones, "select" elige qué información obtener, y "Order by" se utiliza para ordenar los datos. Esto facilita la búsqueda y manipulación de datos en programación.
-
-# 
-<p></p>
-
-
-
-# 
-<p></p>
-
-
-# 
-<p></p>
