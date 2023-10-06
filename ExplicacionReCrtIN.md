@@ -99,12 +99,75 @@ ObtenerMedicamentosCaducanAntesDe2024(): Esto es una función o método que esta
 Entonces, en resumen, la línea de código Task<List<Medicamento>> ObtenerMedicamentosCaducanAntesDe2024(); nos dice que hemos creado una tarea llamada ObtenerMedicamentosCaducanAntesDe2024 que, cuando se complete, nos proporcionará una lista de medicamentos que caducarán antes del año 2024. Esto podría ser útil en un programa de gestión de medicamentos para identificar cuáles necesitan ser renovados o retirados antes de una fecha específica.
 
 
+#  Consulta numero 7 //! Consulta Nro.7
+
+<h4>// Task<Dictionary<string, int>> ObtenerTotalMedicamentosVendidosPorProveedor();</h4>
+
+- Task< Dictionary< string, int>> ObtenerTotalMedicamentosVendidosPorProveedor();
+
+Task: Imagina esto como una tarea que el programa debe realizar en segundo plano. En este caso, la tarea es realizar un cálculo y devolver un resultado.
+<Dictionary<string, int>>: Esto significa que la tarea devolverá un conjunto de datos organizado como un diccionario. Un diccionario es una colección de pares clave-valor, donde cada valor tiene una clave asociada. En este caso, las claves serán cadenas de texto (string) y los valores serán números enteros (int).
+ObtenerTotalMedicamentosVendidosPorProveedor(): Esta es una función o método que estamos definiendo. La función tiene el propósito específico de obtener el total de medicamentos vendidos por proveedor. No es necesario proporcionar ningún dato adicional; la función se encargará de hacer los cálculos necesarios.
+En resumen, esta línea de código indica que hemos creado una tarea llamada ObtenerTotalMedicamentosVendidosPorProveedor que, cuando se complete, nos proporcionará un diccionario donde las claves serán nombres de proveedores y los valores serán la cantidad total de medicamentos vendidos por cada proveedor.
+
+
+<h4>//Task< IEnumerable< object>> ObtenerTotalMedicamentosVendidosPorProveedor(); </h4>
+
+- Task< IEnumerable< object>> ObtenerTotalMedicamentosVendidosPorProveedor();
+
+Task: Al igual que en el ejemplo anterior, esto representa una tarea que el programa realizará en segundo plano.
+< IEnumerable< object>>: Esto significa que la tarea devolverá una colección de objetos. La colección puede contener diferentes tipos de objetos, ya que se usa object como tipo genérico. IEnumerable es una interfaz que permite iterar sobre una colección de objetos.
+ObtenerTotalMedicamentosVendidosPorProveedor(): Nuevamente, esta es una función o método que estamos definiendo, y su objetivo es obtener información sobre los medicamentos vendidos por proveedor.
+En resumen, esta línea de código indica que hemos creado una tarea llamada ObtenerTotalMedicamentosVendidosPorProveedor que, cuando se complete, nos proporcionará una colección de objetos que representan información sobre los medicamentos vendidos por proveedor. Los tipos exactos de objetos dentro de la colección pueden variar.
 
 
 
-        
+
+#  Consulta numero 9 // !Consulta Nro.9
+
+<h4>Task< IEnumerable< Medicamento>> ObtenerMedicamentosNoVendidos();
+</h4>   
 
 
+
+
+
+
+
+
+#  Consulta numero 7 //! Consulta Nro.7
+
+<h4> </h4>      
+
+
+#  Consulta numero 7 //! Consulta Nro.7
+
+<h4> </h4>   
+
+
+#  Consulta numero 7 //! Consulta Nro.7
+
+<h4> </h4>   
+
+
+#  Consulta numero 7 //! Consulta Nro.7
+
+<h4> </h4>   
+
+
+#  Consulta numero 7 //! Consulta Nro.7
+
+<h4> </h4>   
+
+
+#  Consulta numero 7 //! Consulta Nro.7
+
+<h4> </h4>   
+
+
+#  Consulta numero 7 //! Consulta Nro.7
+
+<h4> </h4>   
 
 
 <h1>EXPLICACION DE LA INTERFAZ DE IMEDICAMENTOS</h2>
