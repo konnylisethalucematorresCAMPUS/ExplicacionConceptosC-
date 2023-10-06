@@ -127,47 +127,84 @@ En resumen, esta línea de código indica que hemos creado una tarea llamada Obt
 
 <h4>Task< IEnumerable< Medicamento>> ObtenerMedicamentosNoVendidos();
 </h4>   
+<p>Task<IEnumerable<Medicamento>>: Esto es como una tarea que le estamos asignando al programa. La tarea es obtener una colección de objetos llamados "Medicamento". La palabra Task indica que esta tarea se puede realizar en segundo plano, lo que significa que el programa puede trabajar en ello sin bloquear otras partes del programa.
+
+ObtenerMedicamentosNoVendidos(): Esta es una función o método que estamos definiendo. Es como una instrucción específica que le estamos dando al programa. En este caso, la instrucción es obtener una lista de medicamentos que no han sido vendidos. No necesitas proporcionar ninguna información adicional para esta función; simplemente le estás pidiendo al programa que te dé una lista de medicamentos que aún están disponibles y no han sido comprados.
+
+En resumen, la línea de código Task<IEnumerable<Medicamento>> ObtenerMedicamentosNoVendidos(); nos dice que hemos creado una tarea llamada ObtenerMedicamentosNoVendidos, que cuando se complete, nos proporcionará una lista de medicamentos que aún no han sido vendidos. Esto podría ser útil en un programa de gestión de inventario para ver qué medicamentos están disponibles para la venta.</p>
 
 
+#  Consulta numero 10 //! Consulta Nro.10
+<h4>Task<Medicamento> ObtenerMedicamentoMasCaro();</h4>      
+
+<h4>Task<Medicamento> ObtenerMedicamentoMasCaro(); </h4> 
+Task<Medicamento>: Esto es como una tarea que el programa debe realizar. En este caso, la tarea es obtener un solo objeto llamado "Medicamento". La tarea está marcada con Task, lo que significa que esta tarea puede ejecutarse en segundo plano, y el resultado esperado es un medicamento.
+
+ObtenerMedicamentoMasCaro(): Esta es una función o método que estamos definiendo. La función tiene un trabajo específico que hacer, que es obtener el medicamento más caro disponible. No necesitas proporcionar ningún dato adicional para esta función; está diseñada para buscar y devolver el medicamento con el precio más alto.
+
+En resumen, la línea de código Task<Medicamento> ObtenerMedicamentoMasCaro(); nos dice que hemos creado una tarea llamada ObtenerMedicamentoMasCaro que, una vez completada, nos proporcionará un medicamento, específicamente el medicamento más caro que esté disponible. Esto podría ser útil en un programa de gestión de medicamentos para encontrar el medicamento más costoso en el inventario.  
 
 
+#  Consulta numero 11 //! Consulta Nro.11
 
+<h4>Task<Dictionary<string, int>> ObtenerNumeroMedicamentosPorProveedor();</h4>   
+Task<Dictionary<string, int>>: Imagina esto como una tarea que el programa debe realizar. En este caso, la tarea es obtener un resultado que se presenta en forma de un "Diccionario". Un diccionario es una estructura de datos que relaciona "claves" con "valores". En este caso, la clave es una cadena de texto (string) que representa el nombre del proveedor, y el valor es un número entero (int) que representa la cantidad de medicamentos que ese proveedor suministra.
 
+ObtenerNumeroMedicamentosPorProveedor(): Esto es una función o método que estamos definiendo. La función tiene un propósito específico, que es contar la cantidad de medicamentos suministrados por cada proveedor y devolver esta información en un diccionario. No necesitas proporcionar ningún dato adicional para esta función, ya que está diseñada para recopilar esta información automáticamente.
 
+Entonces, en resumen, la línea de código Task<Dictionary<string, int>> ObtenerNumeroMedicamentosPorProveedor(); nos dice que hemos creado una tarea llamada ObtenerNumeroMedicamentosPorProveedor que, cuando se complete, nos proporcionará un diccionario. Este diccionario relaciona el nombre de cada proveedor con la cantidad de medicamentos que suministra. Esta función podría ser útil en un programa de gestión de inventario de medicamentos para conocer cuántos medicamentos proporciona cada proveedor.
+                   
 
-#  Consulta numero 7 //! Consulta Nro.7
+#  Consulta numero 19 //! Consulta Nro.19
 
-<h4> </h4>      
+<h4> Task<List<Medicamento>> ObtenerMedicamentosQueExpiranEn2024();</h4>  
 
+Task<List<Medicamento>>: Imagina esto como una tarea que el programa debe realizar. En este caso, la tarea es obtener una lista de objetos llamados "Medicamento". La tarea está marcada con Task, que es como una etiqueta que indica que esta tarea puede ejecutarse en segundo plano y que el resultado esperado es una lista de medicamentos.
 
-#  Consulta numero 7 //! Consulta Nro.7
+ObtenerMedicamentosQueExpiranEn2024(): Esto es una función o método que estamos definiendo. La función tiene un propósito específico, que es obtener una lista de medicamentos que vencen en el año 2024. No necesitas proporcionar ningún dato adicional para esta función, ya que está diseñada para buscar medicamentos con una fecha de vencimiento específica.
 
-<h4> </h4>   
+Entonces, en resumen, la línea de código Task<List<Medicamento>> ObtenerMedicamentosQueExpiranEn2024(); nos dice que hemos creado una tarea llamada ObtenerMedicamentosQueExpiranEn2024 que, cuando se complete, nos proporcionará una lista de medicamentos que vencen en el año 2024. Esto podría ser útil en un programa de gestión de medicamentos para identificar cuáles necesitan ser renovados o retirados antes de esa fecha.
+                   
 
+#  Consulta numero 21 //! Consulta Nro.21
 
-#  Consulta numero 7 //! Consulta Nro.7
+<h4>Task<List<Medicamento>> ObtenerMedicamentosNuncaVendidos();</h4>   
+Task<List<Medicamento>>: Imagina esto como una tarea que el programa debe realizar. En este caso, la tarea es obtener una lista de objetos llamados "Medicamento". La tarea está marcada con Task, lo que indica que esta tarea puede ejecutarse en segundo plano y que el resultado esperado es una lista de medicamentos.
 
-<h4> </h4>   
+ObtenerMedicamentosNuncaVendidos(): Esto es una función o método que estamos definiendo. La función tiene un propósito específico, que es obtener una lista de medicamentos que nunca se han vendido. No necesitas proporcionar ningún dato adicional para esta función, ya que está diseñada para buscar y devolver medicamentos que nunca han sido registrados como vendidos en el sistema.
 
+Entonces, en resumen, la línea de código Task<List<Medicamento>> ObtenerMedicamentosNuncaVendidos(); nos dice que hemos creado una tarea llamada ObtenerMedicamentosNuncaVendidos que, cuando se complete, nos proporcionará una lista de medicamentos que nunca se han vendido. Esto podría ser útil en un programa de gestión de inventario para identificar medicamentos que han estado en stock pero que nunca se han vendido.
+                   
+#  Consulta numero 31 //! Consulta Nro.31
 
-#  Consulta numero 7 //! Consulta Nro.7
+<h4> Task<Dictionary<string, List<Medicamento>>> ObtenerMedicamentosVendidosPorMesEn2023(); </h4>   
 
-<h4> </h4>   
+Task<Dictionary<string, List<Medicamento>>>: Piensa en esto como una tarea que el programa realizará. En este caso, la tarea tiene un propósito específico: obtener información sobre medicamentos vendidos durante el año 2023 y organizarlos en un formato especial.
 
+ObtenerMedicamentosVendidosPorMesEn2023(): Esta es una función o método que hemos definido. La función tiene la tarea específica de obtener información sobre medicamentos vendidos durante el año 2023 y organizarla de una manera particular. No necesitas proporcionar ningún dato adicional para esta función.
 
-#  Consulta numero 7 //! Consulta Nro.7
+Dictionary<string, List<Medicamento>>>: Imagina esto como un tipo de contenedor especial. Un diccionario es como una lista de información organizada en pares clave-valor, donde la clave (string) es el mes y el valor (List<Medicamento>) es una lista de medicamentos vendidos en ese mes.
 
-<h4> </h4>   
+Entonces, en resumen, la línea de código Task<Dictionary<string, List<Medicamento>>> ObtenerMedicamentosVendidosPorMesEn2023(); nos dice que hemos creado una tarea llamada ObtenerMedicamentosVendidosPorMesEn2023 que, cuando se complete, nos proporcionará un diccionario especial. En este diccionario, cada mes del año 2023 será una clave, y el valor asociado será una lista de medicamentos vendidos en ese mes. Esto podría ser útil en un programa de seguimiento de ventas de medicamentos para analizar cómo se han vendido los medicamentos a lo largo del año.
 
+  
 
-#  Consulta numero 7 //! Consulta Nro.7
+#  Consulta numero 34 //! Consulta Nro.34
 
-<h4> </h4>   
+<h4>Task<List<Medicamento>> ObtenerMedicamentosNoVendidosEn2023(); </h4>   
+                    
+Task<List<Medicamento>>: Imagina esto como una tarea que el programa debe realizar. En este caso, la tarea es obtener una lista de objetos llamados "Medicamento". La tarea está marcada con Task, que indica que esta tarea puede ejecutarse en segundo plano y que el resultado esperado es una lista de medicamentos.
 
+ObtenerMedicamentosNoVendidosEn2023(): Esto es una función o método que estamos definiendo. La función tiene un propósito específico, que es obtener una lista de medicamentos que no fueron vendidos durante el año 2023. No necesitas proporcionar ningún dato adicional para esta función, ya que está diseñada para buscar y devolver una lista de medicamentos no vendidos durante ese año.
 
-#  Consulta numero 7 //! Consulta Nro.7
+En resumen, la línea de código Task<List<Medicamento>> ObtenerMedicamentosNoVendidosEn2023(); nos dice que hemos creado una tarea llamada ObtenerMedicamentosNoVendidosEn2023 que, cuando se complete, nos proporcionará una lista de medicamentos que no se vendieron durante el año 2023. Esto podría ser útil en un programa de gestión de inventario para identificar los medicamentos que no se vendieron durante un período específico.
 
-<h4> </h4>   
+#  Consulta numero 38 //! Consulta Nro.38
+<h4> Task<List<Medicamento>> ObtenerMedicamentosPrecioStock();</h4>
+Task<List<Medicamento>>: Esto es como una tarea que el programa debe realizar. En este caso, la tarea es obtener una lista de objetos llamados "Medicamento". La tarea está marcada con Task, lo que significa que puede realizarse en segundo plano y que el resultado esperado es una lista de medicamentos.
 
+ObtenerMedicamentosPrecioStock(): Esto es una función o método que estamos definiendo. La función tiene un propósito específico, que es obtener una lista de medicamentos junto con su información de precio y stock. No necesitas proporcionar ningún dato adicional para esta función, ya que está diseñada para buscar y devolver una lista completa de medicamentos con esta información.
 
+En resumen, la línea de código Task<List<Medicamento>> ObtenerMedicamentosPrecioStock(); nos dice que hemos creado una tarea llamada ObtenerMedicamentosPrecioStock que, cuando se complete, nos proporcionará una lista de medicamentos, cada uno de los cuales tendrá información sobre su precio y disponibilidad en stock. Esto podría ser útil en un programa de gestión de inventario de medicamentos para obtener una vista general de los medicamentos y su estado en el inventario.
+                    
 <h1>EXPLICACION DE LA INTERFAZ DE IMEDICAMENTOS</h2>
